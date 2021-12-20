@@ -124,7 +124,7 @@ What did we just do?
 
 The way you name your tests is entirely up to you, you mustn't prefix it with `test_`.
 
-Now, let`s test!
+Now, let's test!
 
 ```
 $ lua54 factos.lua
@@ -156,7 +156,7 @@ Time taken: 0.06 seconds.
 ```
 
 
-In a situation where we a directory structured as below:
+In a situation where we have a directory structured as below:
 
 ```
 
