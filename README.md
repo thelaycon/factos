@@ -77,10 +77,10 @@ mymodule = require "mymodule"
 mytests = {}
 
 mytests.test_add = () ->
-	assert (1+1) == 2
+	assert mymodule.add(1,1) == 2
 
 mytests.test_sub = () ->
-	assert (2-1) == 1
+	assert mymodule.sub(2,1) == 1
 
 return {
 	mytests
@@ -98,11 +98,11 @@ local mymodule = require("mymodule")
 local mytests = { }
 
 mytests.test_add = function()
-  return assert(myapp.add(1, 1) == 2)
+  return assert(mymodule.add(1, 1) == 2)
 end
 
 mytests.test_sub = function()
-  return assert((2 - 1) == 1)
+  return assert(mymodule.sub(2, 1) == 1)
 end
 
 return {
